@@ -1,0 +1,8 @@
+{
+  "name": "netscaler_sentinel",
+  "image": "docker.neg/python:neg-biz",
+  "tag": "0.0.1",
+  "port": [8080],
+  "volume": [],
+  "cmd": [ "python", "run.py"]
+}
